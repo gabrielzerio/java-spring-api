@@ -1,0 +1,1 @@
+docker run --detach --name vollmed-mariadb -p 3306:3306 --env MARIADB_USER=apiuser --env MARIADB_PASSWORD=apipassword --env MARIADB_DATABASE=vollmed_api --env MARIADB_ROOT_PASSWORD=root mariadb:latest
